@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220" role="img" aria-labelledby="stats-title">
+  <title id="stats-title">Caaaaaaaaaarl on GitHub: 9 repositories, 0 stars, 23 public commits, 1 followers</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/><stop offset="0.5" stop-color="#a371f7"/><stop offset="1" stop-color="#f778ba"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="840" height="220" rx="16"/></clipPath>
+    <clipPath id="bar"><rect x="24" y="160" width="792" height="10" rx="5"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .title { fill: #e6edf3; font-size: 17px; font-weight: 700; }
+    .muted { fill: #7d8590; font-size: 12px; }
+    .label { fill: #7d8590; font-size: 12px; font-weight: 600; }
+    .value { fill: #e6edf3; font-size: 25px; font-weight: 800; }
+    .legend { fill: #c9d1d9; font-size: 12px; }
+    .rise { animation: rise 0.7s ease-out both; }
+    .grow { transform-box: fill-box; transform-origin: left; animation: grow 1.1s ease-out 0.35s both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { .rise, .grow { animation: none; } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="840" height="220" fill="#0d1117"/>
+    <rect width="840" height="3" fill="url(#accent)"/>
+    <text x="24" y="38" class="title">Caaaaaaaaaarl · on GitHub</text>
+    <text x="816" y="38" class="muted" text-anchor="end">Updated 19 Sept 2026</text>
+    
+    <g class="rise" style="animation-delay:120ms">
+      <rect x="24" y="58" width="189" height="66" rx="11" fill="#161b22" stroke="#21262d"/>
+      <circle cx="42" cy="78" r="4.5" fill="#58a6ff"/>
+      <text x="54" y="82" class="label">Repositories</text>
+      <text x="40" y="112" class="value">9</text>
+    </g>
+    <g class="rise" style="animation-delay:210ms">
+      <rect x="225" y="58" width="189" height="66" rx="11" fill="#161b22" stroke="#21262d"/>
+      <circle cx="243" cy="78" r="4.5" fill="#e3b341"/>
+      <text x="255" y="82" class="label">Stars earned</text>
+      <text x="241" y="112" class="value">0</text>
+    </g>
+    <g class="rise" style="animation-delay:300ms">
+      <rect x="426" y="58" width="189" height="66" rx="11" fill="#161b22" stroke="#21262d"/>
+      <circle cx="444" cy="78" r="4.5" fill="#3fb950"/>
+      <text x="456" y="82" class="label">Public commits</text>
+      <text x="442" y="112" class="value">23</text>
+    </g>
+    <g class="rise" style="animation-delay:390ms">
+      <rect x="627" y="58" width="189" height="66" rx="11" fill="#161b22" stroke="#21262d"/>
+      <circle cx="645" cy="78" r="4.5" fill="#f778ba"/>
+      <text x="657" y="82" class="label">Followers</text>
+      <text x="643" y="112" class="value">1</text>
+    </g>
+    <text x="24" y="150" class="label">Most used languages (public repositories)</text>
+    <rect x="24" y="160" width="792" height="10" rx="5" fill="#21262d"/>
+    <g clip-path="url(#bar)"><g class="grow"><rect x="24.0" y="160" width="330.4" height="10" fill="#e34c26"/><rect x="354.4" y="160" width="165.3" height="10" fill="#663399"/><rect x="519.7" y="160" width="98.4" height="10" fill="#f1e05a"/><rect x="618.1" y="160" width="76.7" height="10" fill="#178600"/><rect x="694.8" y="160" width="64.2" height="10" fill="#A97BFF"/><rect x="759.0" y="160" width="57.0" height="10" fill="#8b949e"/></g></g>
+    
+    <g class="rise" style="animation-delay:600ms">
+      <circle cx="29" cy="193" r="5" fill="#e34c26"/>
+      <text x="39" y="197" class="legend">HTML 41.7%</text>
+    </g>
+    <g class="rise" style="animation-delay:600ms">
+      <circle cx="129" cy="193" r="5" fill="#663399"/>
+      <text x="139" y="197" class="legend">CSS 20.9%</text>
+    </g>
+    <g class="rise" style="animation-delay:600ms">
+      <circle cx="222" cy="193" r="5" fill="#f1e05a"/>
+      <text x="232" y="197" class="legend">JavaScript 12.4%</text>
+    </g>
+    <g class="rise" style="animation-delay:600ms">
+      <circle cx="364" cy="193" r="5" fill="#178600"/>
+      <text x="374" y="197" class="legend">C# 9.7%</text>
+    </g>
+    <g class="rise" style="animation-delay:600ms">
+      <circle cx="443" cy="193" r="5" fill="#A97BFF"/>
+      <text x="453" y="197" class="legend">Kotlin 8.1%</text>
+    </g>
+    <g class="rise" style="animation-delay:600ms">
+      <circle cx="550" cy="193" r="5" fill="#8b949e"/>
+      <text x="560" y="197" class="legend">Other 7.2%</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="219" rx="15.5" fill="none" stroke="#30363d"/>
+</svg>
