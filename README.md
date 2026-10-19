@@ -29,6 +29,22 @@
 <tr>
 <td width="50%" valign="top">
 
+**[Library Resource Management System](https://bu-pol-library-resource-management.vercel.app)**<br>
+Our capstone: a library system for our campus. It imports book lists from PDFs and spreadsheets, tracks collection and accreditation metrics, exports Excel and narrative reports, and has a Gemini-powered assistant librarians can ask questions.<br>
+`PHP` `JavaScript` `TypeScript` `Firebase` `Gemini API` `Vercel`
+
+</td>
+<td width="50%" valign="top">
+
+**Hoby**<br>
+A study and workout buddy app: Pomodoro timers, weekly goals, an exam calendar, notes, AI quizzes and live status from your friends. Runs on Android and the web.<br>
+`TypeScript` `React Native` `Expo` `Firebase`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[PulseCare](https://github.com/Caaaaaaaaaarl/PulseCare)**<br>
 Healthcare management web app where patients and doctors manage appointments, consultations and reminders. A team project.<br>
 `ASP.NET Core MVC` `EF Core` `SQL Server`
@@ -38,23 +54,7 @@ Healthcare management web app where patients and doctors manage appointments, co
 
 **[POS](https://github.com/Caaaaaaaaaarl/POS)**<br>
 Android point-of-sale app built to help student entrepreneurs at school handle their sales.<br>
-`Kotlin` `Android`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[InventoryManagementSystem](https://github.com/Caaaaaaaaaarl/InventoryManagementSystem)**<br>
-CLI-based inventory management system, my Internet Technologies midterm project.<br>
-`C#` `.NET`
-
-</td>
-<td width="50%" valign="top">
-
-**[Bolo_3A_Minimal_API](https://github.com/Caaaaaaaaaarl/Bolo_3A_Minimal_API)**<br>
-A lightweight REST API built with ASP.NET Core minimal APIs.<br>
-`C#` `ASP.NET Core`
+`Kotlin` `Jetpack Compose` `Android`
 
 </td>
 </tr>
