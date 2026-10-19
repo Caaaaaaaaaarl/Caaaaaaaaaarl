@@ -2,7 +2,7 @@
   <img src="./assets/receipt.svg" width="460" alt="A printed receipt from Caaaaaaaaaarl General Merchandise & Code that lists my projects as items, with a total of 351 hours of sleep lost. Salamat po!">
 </p>
 
-hi, i'm carl. i study IT in bicol.
+Hi! I'm Carl. I study IT in bicol.
 
 most of what i build starts because someone near me needed it. the POS app was for classmates who sell stuff at school and were tracking sales on paper. the library system is our capstone, so the whole campus is technically the client. the birthday and valentine sites were for people i care about, and honestly those are my favorite things on here.
 
