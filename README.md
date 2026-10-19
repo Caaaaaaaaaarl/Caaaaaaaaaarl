@@ -1,22 +1,87 @@
 <p align="center">
-  <img src="./assets/receipt.svg" width="460" alt="A printed receipt from Caaaaaaaaaarl General Merchandise & Code that lists my projects as items, with a total of 351 hours of sleep lost. Salamat po!">
+  <img src="./assets/banner.svg" width="100%" alt="Hi, I'm Carl: BSIT student and full-stack builder working with C#, .NET, Kotlin, PHP and Firebase">
 </p>
 
+<<<<<<< HEAD
 Hi! I'm Carl. I study IT in bicol.
+=======
+<p align="center">
+  <a href="https://www.facebook.com/heisekii/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+  <img src="https://komarev.com/ghpvc/?username=Caaaaaaaaaarl&label=Profile%20views&color=58a6ff&style=for-the-badge" alt="Profile views">
+</p>
+>>>>>>> dc1dad3 (Bring back the banner profile, minus the emojis)
 
-most of what i build starts because someone near me needed it. the POS app was for classmates who sell stuff at school and were tracking sales on paper. the library system is our capstone, so the whole campus is technically the client. the birthday and valentine sites were for people i care about, and honestly those are my favorite things on here.
+---
 
-right now i'm getting better at asp.net core and trying to write APIs that won't embarrass me six months from now. also making a roblox game. more on that when it stops breaking.
+### About me
 
-#### stuff you can open
+- **BSIT student** who likes turning class projects into things people actually use
+- **Building now:** a library resource management system for our campus, with PHP, Firebase and a Gemini-powered assistant
+- **Shipped:** an Android POS app that helps student entrepreneurs at school track their sales
+- **Leveling up:** ASP.NET Core, clean REST APIs and UI design
+- **Fun fact:** yes, that many a's in my username is on purpose
 
-- [POS](https://github.com/Caaaaaaaaaarl/POS): android point-of-sale, kotlin
-- [PulseCare](https://github.com/Caaaaaaaaaarl/PulseCare): clinic appointments and reminders in asp.net core mvc, built with two classmates
-- [InventoryManagementSystem](https://github.com/Caaaaaaaaaarl/InventoryManagementSystem): c# console app, my internet technologies midterm
-- [Bolo_3A_Minimal_API](https://github.com/Caaaaaaaaaarl/Bolo_3A_Minimal_API): small REST API with asp.net minimal APIs
+### Tech I work with
 
-the library system, hoby and the TSA site are in private repos for now.
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,kotlin,androidstudio,php,js,html,css,bootstrap,firebase,git,github,vercel,vscode&perline=14" alt="C#, .NET, Kotlin, Android Studio, PHP, JavaScript, HTML, CSS, Bootstrap, Firebase, Git, GitHub, Vercel, VS Code">
+</p>
 
-#### say hi
+### Featured projects
 
-[facebook](https://www.facebook.com/heisekii/), or open an issue on any of my repos. i'll probably see it around 11:47 pm.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[PulseCare](https://github.com/Caaaaaaaaaarl/PulseCare)**<br>
+Healthcare management web app where patients and doctors manage appointments, consultations and reminders. A team project.<br>
+`ASP.NET Core MVC` `EF Core` `SQL Server`
+
+</td>
+<td width="50%" valign="top">
+
+**[POS](https://github.com/Caaaaaaaaaarl/POS)**<br>
+Android point-of-sale app built to help student entrepreneurs at school handle their sales.<br>
+`Kotlin` `Android`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[InventoryManagementSystem](https://github.com/Caaaaaaaaaarl/InventoryManagementSystem)**<br>
+CLI-based inventory management system, my Internet Technologies midterm project.<br>
+`C#` `.NET`
+
+</td>
+<td width="50%" valign="top">
+
+**[Bolo_3A_Minimal_API](https://github.com/Caaaaaaaaaarl/Bolo_3A_Minimal_API)**<br>
+A lightweight REST API built with ASP.NET Core minimal APIs.<br>
+`C#` `ASP.NET Core`
+
+</td>
+</tr>
+</table>
+
+### GitHub at a glance
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Caaaaaaaaaarl/Caaaaaaaaaarl/output/stats.svg" width="100%" alt="GitHub stats: repositories, stars, public commits, followers and most used languages">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Caaaaaaaaaarl/Caaaaaaaaaarl/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Caaaaaaaaaarl/Caaaaaaaaaarl/output/github-contribution-grid-snake.svg">
+    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/Caaaaaaaaaarl/Caaaaaaaaaarl/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
+### Random dev quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote">
+</p>
+
+<p align="center"><sub>The stats card and contribution snake are redrawn daily by <a href="./.github/workflows/profile-assets.yml">a GitHub Action</a> in this repo.</sub></p>

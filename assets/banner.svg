@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Hi, I'm Carl</title>
+  <desc id="banner-desc">BSIT student and full-stack builder working with C#, .NET, Kotlin, PHP and Firebase.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#111a33"/>
+      <stop offset="1" stop-color="#1b1140"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#f778ba"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="280" rx="22"/></clipPath>
+
+    <!-- Typing reveal: three taglines take turns over a 12 s loop. -->
+    <clipPath id="type-0">
+      <rect x="58" y="164" height="32" width="0">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+          keyTimes="0;0.1;0.3;0.3167;1" values="0;420;420;0;0"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type-1">
+      <rect x="58" y="164" height="32" width="0">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+          keyTimes="0;0.3333;0.4333;0.6333;0.65;1" values="0;0;445;445;0;0"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type-2">
+      <rect x="58" y="164" height="32" width="0">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+          keyTimes="0;0.6667;0.7667;0.9667;0.9833;1" values="0;0;407;407;0;0"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .blob { transform-box: fill-box; transform-origin: center; animation: drift 14s ease-in-out infinite alternate; }
+    .blob-2 { animation-duration: 18s; animation-direction: alternate-reverse; }
+    .blob-3 { animation-duration: 22s; }
+    @keyframes drift { from { transform: translate(0, 0) scale(1); } to { transform: translate(40px, -24px) scale(1.15); } }
+    .window { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .rise { animation: rise 0.9s ease-out both; }
+    .rise-2 { animation-delay: 0.2s; }
+    .rise-3 { animation-delay: 0.4s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .blob, .window, .cursor, .rise { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#grid)"/>
+    <circle class="blob" cx="190" cy="40" r="120" fill="#58a6ff" opacity="0.2" filter="url(#blur)"/>
+    <circle class="blob blob-2" cx="820" cy="270" r="150" fill="#a371f7" opacity="0.24" filter="url(#blur)"/>
+    <circle class="blob blob-3" cx="560" cy="-20" r="90" fill="#f778ba" opacity="0.14" filter="url(#blur)"/>
+    <rect x="0.5" y="0.5" width="999" height="279" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- Greeting -->
+    <text class="mono rise" x="60" y="78" font-size="16"><tspan fill="#7d8590">~/Caaaaaaaaaarl</tspan><tspan fill="#3fb950"> $ whoami</tspan></text>
+    <text class="sans rise rise-2" x="57" y="142" font-size="58" font-weight="800" fill="url(#name)">Hi, I'm Carl</text>
+
+    <!-- Rotating tagline -->
+    <g class="mono" font-size="22" fill="#c9d1d9">
+      <text x="60" y="188" textLength="416" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-0)">BSIT student · full-stack builder</text>
+      <text x="60" y="188" textLength="441" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-1)">C# · .NET · Kotlin · PHP · Firebase</text>
+      <text x="60" y="188" textLength="403" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-2)">I build apps people actually use</text>
+    </g>
+    <rect class="cursor" x="60" y="168" width="11" height="26" rx="2" fill="#58a6ff">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.1;0.3;0.3167;0.3333;0.4333;0.6333;0.65;0.6667;0.7667;0.9667;0.9833;1"
+        values="60;480;480;60;60;505;505;60;60;467;467;60;60"/>
+    </rect>
+    <text class="sans rise rise-3" x="60" y="240" font-size="15" fill="#7d8590">Always learning · open to collaborations</text>
+
+    <!-- Code card -->
+    <g transform="translate(620 46)">
+      <g class="window">
+        <rect width="340" height="196" rx="14" fill="#0d1117" fill-opacity="0.86" stroke="#30363d"/>
+        <circle cx="20" cy="19" r="5.5" fill="#ff5f56"/>
+        <circle cx="38" cy="19" r="5.5" fill="#ffbd2e"/>
+        <circle cx="56" cy="19" r="5.5" fill="#27c93f"/>
+        <text class="mono" x="170" y="23" font-size="12.5" fill="#7d8590" text-anchor="middle">Developer.cs</text>
+        <path d="M0 36H340" stroke="#30363d"/>
+        <g class="mono" font-size="14">
+          <text y="64"><tspan x="18" fill="#ff7b72">var</tspan><tspan fill="#c9d1d9"> carl </tspan><tspan fill="#ff7b72">= new</tspan><tspan fill="#d2a8ff"> Developer</tspan></text>
+          <text y="88"><tspan x="18" fill="#c9d1d9">{</tspan></text>
+          <text y="112"><tspan x="38" fill="#79c0ff">Stack</tspan><tspan fill="#ff7b72">  = </tspan><tspan fill="#c9d1d9">[</tspan><tspan fill="#a5d6ff">".NET"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Kotlin"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"PHP"</tspan><tspan fill="#c9d1d9">],</tspan></text>
+          <text y="136"><tspan x="38" fill="#79c0ff">Coffee</tspan><tspan fill="#ff7b72"> = </tspan><tspan fill="#79c0ff">true</tspan><tspan fill="#c9d1d9">,</tspan></text>
+          <text y="160"><tspan x="38" fill="#79c0ff">Status</tspan><tspan fill="#ff7b72"> = </tspan><tspan fill="#a5d6ff">"shipping"</tspan></text>
+          <text y="184"><tspan x="18" fill="#c9d1d9">};</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
