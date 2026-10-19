@@ -2,14 +2,10 @@
   <img src="./assets/banner.svg" width="100%" alt="Hi, I'm Carl: BSIT student and full-stack builder working with C#, .NET, Kotlin, PHP and Firebase">
 </p>
 
-<<<<<<< HEAD
-Hi! I'm Carl. I study IT in bicol.
-=======
 <p align="center">
   <a href="https://www.facebook.com/heisekii/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
   <img src="https://komarev.com/ghpvc/?username=Caaaaaaaaaarl&label=Profile%20views&color=58a6ff&style=for-the-badge" alt="Profile views">
 </p>
->>>>>>> dc1dad3 (Bring back the banner profile, minus the emojis)
 
 ---
 
