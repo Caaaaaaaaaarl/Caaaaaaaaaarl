@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Hi, I'm Carl: BSIT student and full-stack builder working with C#, .NET, Kotlin, PHP and Firebase">
+  <img src="./assets/banner.svg" width="100%" alt="Hi, I'm Carl: BSIT student and full-stack builder working with C#, .NET, React, PHP and Firebase">
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 ### Tech I work with
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,kotlin,androidstudio,php,js,html,css,bootstrap,firebase,git,github,vercel,vscode&perline=14" alt="C#, .NET, Kotlin, Android Studio, PHP, JavaScript, HTML, CSS, Bootstrap, Firebase, Git, GitHub, Vercel, VS Code">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,react,nodejs,php,python,kotlin,androidstudio,firebase,html,css,lua,blender,vercel,git,github,vscode&perline=10" alt="C#, .NET, TypeScript, JavaScript, React, Node.js, PHP, Python, Kotlin, Android Studio, Firebase, HTML, CSS, Lua, Blender, Vercel, Git, GitHub, VS Code">
 </p>
 
 ### Featured projects

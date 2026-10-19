@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="banner-title banner-desc">
   <title id="banner-title">Hi, I'm Carl</title>
-  <desc id="banner-desc">BSIT student and full-stack builder working with C#, .NET, Kotlin, PHP and Firebase.</desc>
+  <desc id="banner-desc">BSIT student and full-stack builder working with C#, .NET, React, PHP and Firebase.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -74,7 +74,7 @@
     <!-- Rotating tagline -->
     <g class="mono" font-size="22" fill="#c9d1d9">
       <text x="60" y="188" textLength="416" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-0)">BSIT student · full-stack builder</text>
-      <text x="60" y="188" textLength="441" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-1)">C# · .NET · Kotlin · PHP · Firebase</text>
+      <text x="60" y="188" textLength="441" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-1)">C# · .NET · React · PHP · Firebase</text>
       <text x="60" y="188" textLength="403" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-2)">I build apps people actually use</text>
     </g>
     <rect class="cursor" x="60" y="168" width="11" height="26" rx="2" fill="#58a6ff">
@@ -96,7 +96,7 @@
         <g class="mono" font-size="14">
           <text y="64"><tspan x="18" fill="#ff7b72">var</tspan><tspan fill="#c9d1d9"> carl </tspan><tspan fill="#ff7b72">= new</tspan><tspan fill="#d2a8ff"> Developer</tspan></text>
           <text y="88"><tspan x="18" fill="#c9d1d9">{</tspan></text>
-          <text y="112"><tspan x="38" fill="#79c0ff">Stack</tspan><tspan fill="#ff7b72">  = </tspan><tspan fill="#c9d1d9">[</tspan><tspan fill="#a5d6ff">".NET"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Kotlin"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"PHP"</tspan><tspan fill="#c9d1d9">],</tspan></text>
+          <text y="112"><tspan x="38" fill="#79c0ff">Stack</tspan><tspan fill="#ff7b72">  = </tspan><tspan fill="#c9d1d9">[</tspan><tspan fill="#a5d6ff">".NET"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"React"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"PHP"</tspan><tspan fill="#c9d1d9">],</tspan></text>
           <text y="136"><tspan x="38" fill="#79c0ff">Coffee</tspan><tspan fill="#ff7b72"> = </tspan><tspan fill="#79c0ff">true</tspan><tspan fill="#c9d1d9">,</tspan></text>
           <text y="160"><tspan x="38" fill="#79c0ff">Status</tspan><tspan fill="#ff7b72"> = </tspan><tspan fill="#a5d6ff">"shipping"</tspan></text>
           <text y="184"><tspan x="18" fill="#c9d1d9">};</tspan></text>
